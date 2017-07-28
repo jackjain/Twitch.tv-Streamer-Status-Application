@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Jack Jain</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div id="header" class="container-fluid well row">
+    
+        <div class="col-sm-6 col-xs-4" style="padding:10px;">
+        <p style="color:purple;"><i class="fa fa-twitch" style="color:purple;"></i><strong>Twitch.Tv</strong></p>
+        </div>
+      <div class="col-xs-3"></div>
+        <div class="col-sm-6 col-xs-5  text-right">
+        <div class="hidden-xs"><p>Stream Status</div>
+        <select>
+          <option id="all" class="selected">All</option>
+          <option id="online" class="selected">Online</option>
+          <option id="offline" class="selected">Offline</option>
+        </select>
+          </p>
+          </div>
+      </div>
+  <div class="container results">
+       <div id="online-result" hidden=true></div>
+       <div id="offline-result" hidden=true></div>
+    
+  </div>
+</div>
+  <script src='https://use.fontawesome.com/9be0a905cf.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
