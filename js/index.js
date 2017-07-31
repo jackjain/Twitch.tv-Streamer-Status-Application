@@ -7,7 +7,6 @@ $(document).ready(function(){
     $("#offline-result").attr("hidden",false);
   $("#selected").change(function(){
     var id=$(this).val();
-//     alert(id);
     switch(id){
       case 'all':$("#online-result").attr("hidden",false);
                  $("#offline-result").attr("hidden",false);break;
@@ -17,7 +16,6 @@ $(document).ready(function(){
                         $("#offline-result").attr("hidden",false);break;
              }
   });
-  // $(".selected")
 });
 
 
